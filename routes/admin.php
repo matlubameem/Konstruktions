@@ -1,6 +1,4 @@
 <?php
 
 
-Route::get('/test', function (){
-    return "Hello Fucker";
-});
+Route::get('login','adminLoginController@showLogin')->name('admin.login');

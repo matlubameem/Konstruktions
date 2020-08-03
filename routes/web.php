@@ -13,9 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('back_end.dashboard');
-});
+//Route::get('/', function () {
+//    return view('back_end.auth.login');
+//});
 
 Auth::routes();
 
