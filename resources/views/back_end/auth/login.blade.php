@@ -34,7 +34,7 @@
 <!-- ============================================================== -->
 <div class="splash-container">
     <div class="card ">
-        <div class="card-header text-center"><a href="../index.html"><img class="logo-img" src="../assets/images/logo.png" alt="logo"></a><span class="splash-description">Please enter your user information.</span></div>
+        <div class="card-header text-center"><a href=""><img class="logo-img" src="{{ asset('back_end/assets/images/logo.png') }}" alt="logo"></a><span class="splash-description">Please enter your user information.</span></div>
         <div class="card-body">
             <form>
                 <div class="form-group">
@@ -53,7 +53,7 @@
         </div>
         <div class="card-footer bg-white p-0  ">
             <div class="card-footer-item card-footer-item-bordered">
-                <a href="#" class="footer-link">Create An Account</a></div>
+                <a href="#" class="footer-link">Time & Date</a></div>
             <div class="card-footer-item card-footer-item-bordered">
                 <a href="#" class="footer-link">Forgot Password</a>
             </div>
