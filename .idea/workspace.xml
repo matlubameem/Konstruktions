@@ -21,11 +21,13 @@
   <component name="ChangeListManager">
     <list default="true" id="0046a980-16df-4dc4-b925-79dae0359765" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/AdminLogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/AdminLogin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/AdminLogin.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Role.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_08_03_093216_create_admin_logins_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_08_04_163334_create_roles_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/back_end/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/back_end/auth/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +167,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../twccode" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
@@ -192,6 +194,9 @@
       <workItem from="1596428001503" duration="14529000" />
       <workItem from="1596471598200" duration="595000" />
       <workItem from="1596473752265" duration="2740000" />
+      <workItem from="1596517172391" duration="7173000" />
+      <workItem from="1596540644854" duration="574000" />
+      <workItem from="1596556631429" duration="2792000" />
     </task>
     <servers />
   </component>
@@ -214,6 +219,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1596518367054">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1596518367054" />
     <state x="517" y="287" key="NewPhpFileDialog" timestamp="1596441855212">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
