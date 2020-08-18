@@ -12,11 +12,26 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+// Single Route For Admin Panel Landing Page
 Route::get('/', function () {
-    return view('welcome');
+    return view('back_end.home');
+})->middleware('auth')->name('home');
+
+// Route For Admin Dashboard
+Route::get('/dashboard', function () {
+    return view('back_end.dashboard');
+})->middleware('auth')->name('admin.dashboard');
+
+// Default User Login logic
+Auth::routes(['register' => false]);
+
+Route::middleware('auth')->group(function () {
+
+    // Project Tree Routes
+    Route::prefix('project')->group(function () {
+        Route::get('add','ProjectController@showAdd')->name('project.add');
+        Route::post('add','ProjectController@showAdd');
+    });
 });
 
-Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
