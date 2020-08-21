@@ -29,8 +29,8 @@ Route::middleware('auth')->group(function () {
 
     // Project Tree Routes
     Route::prefix('project')->group(function () {
-        Route::get('add','ProjectController@showAdd')->name('project.add');
-        Route::post('add','ProjectController@showAdd');
+        Route::get('add','ProjectController@showProjectAdd')->name('project.add');
+        Route::post('add','ProjectController@processProjectAdd');
     });
 });
 

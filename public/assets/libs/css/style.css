@@ -1975,7 +1975,9 @@ Container / Wrapper
     margin-left: 264px;
     min-height: 870px !important;
 }
-
+select.form-control:not([size]):not([multiple]) {
+    height: 2.17rem; !important;
+}
 .dashboard-content {
     padding: 30px 30px 60px 30px;
 }
@@ -2025,7 +2027,8 @@ Pageheader
 -------------------------*/
 
 .page-header {
-    margin-bottom: 30px;
+    margin: 0 -15px 30px -15px;
+
 }
 
 .page-breadcrumb {
@@ -2038,7 +2041,7 @@ Pageheader
 }
 
 .page-breadcrumb .breadcrumb-link {
-    color: #a6a6b7;
+    color: #f0f0f8;
 }
 
 .page-breadcrumb .breadcrumb-link:hover {
@@ -2069,14 +2072,17 @@ Pageheader
 }
 
 .page-breadcrumb .breadcrumb-item.active {
-    color: #71728e;
+    color: #f1efee;
 }
 
 .pageheader-title {
-    font-size: 24px;
+    font-size: 27px;
     margin-bottom: 8px;
+    color: #ffffff;
 }
-
+.reset-default-container{
+    margin: 0 -15px;
+}
 .pageheader-text {
     margin-bottom: 14px;
     display: none;
