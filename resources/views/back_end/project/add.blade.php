@@ -16,7 +16,7 @@
                                     <label for="validationCustom0001">Project name <span
                                             class="text-danger">*</span></label>
                                     <input type="text" name="project_name" class="form-control" id="validationCustom0001"
-                                           placeholder="First name" value="" required>
+                                           placeholder="Duplex Chottogram" value="" required>
                                     <div class="invalid-feedback">
                                         Please choose a status.
                                     </div>
@@ -24,7 +24,7 @@
                                 <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 ">
                                     <label for="validationCustom001">Project ID</label>
                                     <input type="text" name="project_id" class="form-control" id="validationCustom001"
-                                           placeholder="First name" value="" required readonly>
+                                           placeholder="D15ZA7-CC412HK-GHY55R" value="" required readonly>
                                 </div>
                             </div>
                             <div class="form-row">
@@ -114,13 +114,26 @@
                                         <div class="tab-pane fade" id="newTab" role="tabpanel"
                                              aria-labelledby="new-tab">
                                             <div class="form-group">
-                                                <label for="clientName" class="col-form-label">Client Name: <span
+                                                <label for="clientName" class="col-form-label">Client First Name: <span
                                                         class="text-danger">*</span></label>
                                                 <input type="text"
-                                                       class="form-control @error('client_name') is-invalid @enderror"
-                                                       id="clientName" name="client_name"
+                                                       class="form-control @error('first_name') is-invalid @enderror"
+                                                       id="clientName" name="first_name"
                                                        value="">
-                                                @error('client_name')
+                                                @error('first_name')
+                                                <span class="invalid-feedback" role="alert">
+                                                    <strong></strong>
+                                                </span>
+                                                @enderror
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="clientName" class="col-form-label">Client Last Name: <span
+                                                        class="text-danger">*</span></label>
+                                                <input type="text"
+                                                       class="form-control @error('last_name') is-invalid @enderror"
+                                                       id="clientName" name="last_name"
+                                                       value="">
+                                                @error('last_name')
                                                 <span class="invalid-feedback" role="alert">
                                                     <strong></strong>
                                                 </span>
@@ -132,7 +145,7 @@
                                                         class="text-danger">*</span></label>
                                                 <input type="number"
                                                        class="form-control @error('client_number') is-invalid @enderror"
-                                                       id="clientMobile" name="client_number"
+                                                       id="clientMobile" name="mobile"
                                                        value="{{ old('client_number') }}">
                                                 @error('client_number')
                                                 <span class="invalid-feedback" role="alert">
@@ -145,7 +158,7 @@
                                                 <label for="clientEmail" class="col-form-label">Client Email:</label>
                                                 <input type="text"
                                                        class="form-control @error('client_email') is-invalid @enderror"
-                                                       id="clientEmail" name="client_email"
+                                                       id="clientEmail" name="email"
                                                        value="{{ old('client_email') }}">
                                                 @error('client_email')
                                                 <span class="invalid-feedback" role="alert">
@@ -157,7 +170,7 @@
                                             <div class="form-group">
                                                 <label for="address-text" class="col-form-label">Client Address:</label>
                                                 <textarea class="form-control" id="address-text"
-                                                          name="client_address">{!! old('client_address') !!}</textarea>
+                                                          name="address">{!! old('client_address') !!}</textarea>
                                             </div>
                                         </div>
                                     </div>
