@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-<<<<<<< HEAD
+
 
 //Route::get('/', function () {
 //    return view('back_end.auth.login');
@@ -21,7 +21,7 @@ use Illuminate\Support\Facades\Route;
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-=======
+
 // Single Route For Admin Panel Landing Page
 Route::get('/', function () {
     return view('back_end.home');
@@ -45,4 +45,3 @@ Route::middleware('auth')->group(function () {
 });
 
 
->>>>>>> 99e821481d7224ee815f1432b9990c2be1b7d866
