@@ -24,8 +24,11 @@ class LoginController extends Controller
 
     use AuthenticatesUsers;
 
+<<<<<<< HEAD
     protected $maxAttempts = 3;
     protected $decayMinutes = 10;
+=======
+>>>>>>> 99e821481d7224ee815f1432b9990c2be1b7d866
 
     /**
      * Where to redirect users after login.
@@ -42,6 +45,7 @@ class LoginController extends Controller
     public function __construct()
     {
         $this->middleware('guest')->except('logout');
+<<<<<<< HEAD
         $this->middleware('auth')->only('logout');
     }
 
@@ -51,6 +55,10 @@ class LoginController extends Controller
      * @param \Illuminate\Http\Request $request
      * @return bool
      */
+=======
+
+    }
+>>>>>>> 99e821481d7224ee815f1432b9990c2be1b7d866
 
     protected function attemptLogin(Request $request)
     {
@@ -58,11 +66,19 @@ class LoginController extends Controller
             ->orWhere('username', '=', $request->post('username'))
             ->first();
 
+<<<<<<< HEAD
         if (!$user || !Hash::check($request->post('password'), $user->password)) {
+=======
+        if(!$user || !Hash::check($request->post('password'), $user->password)) {
+>>>>>>> 99e821481d7224ee815f1432b9990c2be1b7d866
             return false;
         }
 
         $this->guard()->login($user, $request->filled('remember'));
+<<<<<<< HEAD
+=======
+
+>>>>>>> 99e821481d7224ee815f1432b9990c2be1b7d866
         return true;
     }
 
@@ -75,5 +91,8 @@ class LoginController extends Controller
     {
         return 'username';
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 99e821481d7224ee815f1432b9990c2be1b7d866
 }

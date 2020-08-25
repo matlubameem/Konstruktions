@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -16,12 +17,23 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
+=======
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand />
+>>>>>>> 99e821481d7224ee815f1432b9990c2be1b7d866
     <select />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0046a980-16df-4dc4-b925-79dae0359765" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_08_04_163335_create_users_table.php" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+>>>>>>> 99e821481d7224ee815f1432b9990c2be1b7d866
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,6 +157,11 @@
       <path value="$PROJECT_DIR$/vendor/league/flysystem" />
       <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+<<<<<<< HEAD
+=======
+      <path value="$PROJECT_DIR$/vendor/cocur/slugify" />
+      <path value="$PROJECT_DIR$/vendor/cviebrock/eloquent-sluggable" />
+>>>>>>> 99e821481d7224ee815f1432b9990c2be1b7d866
     </include_path>
   </component>
   <component name="ProjectId" id="1fYNkkaXxzcVT4s8I1jc6xFHXhJ" />
@@ -159,10 +176,17 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+<<<<<<< HEAD
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../usave.com" />
     <property name="nodejs_package_manager_path" value="npm" />
+=======
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../twccode" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="php.override.implement.member.chooser.php.doc" value="DEFAULT" />
+>>>>>>> 99e821481d7224ee815f1432b9990c2be1b7d866
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
@@ -191,7 +215,34 @@
       <workItem from="1596517172391" duration="7173000" />
       <workItem from="1596540644854" duration="574000" />
       <workItem from="1596556631429" duration="3499000" />
+<<<<<<< HEAD
       <workItem from="1596635779460" duration="6722000" />
+=======
+      <workItem from="1596635779460" duration="12404000" />
+      <workItem from="1596730437170" duration="3491000" />
+      <workItem from="1596793912919" duration="5074000" />
+      <workItem from="1597239173419" duration="5400000" />
+      <workItem from="1597247331606" duration="5085000" />
+      <workItem from="1597290005608" duration="1222000" />
+      <workItem from="1597340802039" duration="1532000" />
+      <workItem from="1597412889863" duration="10108000" />
+      <workItem from="1597464976774" duration="594000" />
+      <workItem from="1597513061100" duration="9651000" />
+      <workItem from="1597554798341" duration="13841000" />
+      <workItem from="1597759029070" duration="11662000" />
+      <workItem from="1597813062398" duration="1885000" />
+      <workItem from="1597821009932" duration="1246000" />
+      <workItem from="1597837066946" duration="951000" />
+      <workItem from="1597855109566" duration="5071000" />
+      <workItem from="1597936716593" duration="1101000" />
+      <workItem from="1597981961241" duration="1623000" />
+      <workItem from="1598004624949" duration="94000" />
+      <workItem from="1598018438241" duration="13458000" />
+      <workItem from="1598070692407" duration="2596000" />
+      <workItem from="1598104533357" duration="17175000" />
+      <workItem from="1598156223742" duration="661000" />
+      <workItem from="1598371490571" duration="1733000" />
+>>>>>>> 99e821481d7224ee815f1432b9990c2be1b7d866
     </task>
     <servers />
   </component>
@@ -203,7 +254,17 @@
       <map>
         <entry key="MAIN">
           <value>
+<<<<<<< HEAD
             <State />
+=======
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
+>>>>>>> 99e821481d7224ee815f1432b9990c2be1b7d866
           </value>
         </entry>
       </map>
@@ -214,6 +275,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+<<<<<<< HEAD
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1596639297463">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -222,13 +284,50 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1596441855212" />
+=======
+    <state x="309" y="42" key="#Inspections" timestamp="1597769135895">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="309" y="42" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1597769135895" />
+    <state x="438" y="188" key="#Notifications" timestamp="1597855152008">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="438" y="188" key="#Notifications/0.0.1366.728@0.0.1366.728" timestamp="1597855152008" />
+    <state x="488" y="46" key="#com.intellij.ide.util.MemberChooser" timestamp="1598039327842">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="46" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1598039327842" />
+    <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1598111368351">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1598111368351" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1598156284493">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1598156284493" />
+    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1598125133269">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1598125133269" />
+>>>>>>> 99e821481d7224ee815f1432b9990c2be1b7d866
     <state x="184" y="9" key="SettingsEditor" timestamp="1596447791895">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1596447791895" />
+<<<<<<< HEAD
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1596447370954">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1596447370954" />
+=======
+    <state x="339" y="162" key="run.anything.popup" timestamp="1597244799882">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1597244799882" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1598116819078">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1598116819078" />
+>>>>>>> 99e821481d7224ee815f1432b9990c2be1b7d866
   </component>
 </project>

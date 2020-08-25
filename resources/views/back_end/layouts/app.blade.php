@@ -6,6 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
+<<<<<<< HEAD
     <link rel="stylesheet" href="{{ asset('back_end/assets/vendor/bootstrap/css/bootstrap.min.css') }}">
     <link href="{{ asset('back_end/assets/vendor/fonts/circular-std/style.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('back_end/assets/libs/css/style.css') }}">
@@ -26,6 +27,32 @@
     <div class="dashboard-header">
         <nav class="navbar navbar-expand-lg bg-white fixed-top">
             <a class="navbar-brand" href="#">Konstruktions</a>
+=======
+    <link rel="stylesheet" href="{{ asset('assets/vendor/bootstrap/css/bootstrap.min.css') }}">
+    <link href="{{ asset('assets/vendor/fonts/circular-std/style.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('assets/libs/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/vendor/fonts/fontawesome/css/fontawesome-all.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/vendor/charts/chartist-bundle/chartist.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/vendor/charts/morris-bundle/morris.css') }}">
+    <link rel="stylesheet"
+          href="{{ asset('assets/vendor/fonts/material-design-iconic-font/css/materialdesignicons.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/vendor/charts/c3charts/c3.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/vendor/fonts/flag-icon-css/flag-icon.min.css') }}">
+    <title>Welcome - @yield('title')</title>
+</head>
+
+<body>
+<!-- ============================================================== -->
+<!-- main wrapper -->
+<!-- ============================================================== -->
+<div class="dashboard-main-wrapper">
+    <!-- -----------------------------------------------------------------
+    -                      Top Navigation Menu                           -
+    - -------------------------------------------------------------------- -->
+    <div class="dashboard-header">
+        <nav class="navbar navbar-expand-lg bg-white fixed-top">
+            <a class="navbar-brand" href="{{ route('home') }}">konstruktion</a>
+>>>>>>> 99e821481d7224ee815f1432b9990c2be1b7d866
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -49,7 +76,11 @@
                                         <a href="#" class="list-group-item list-group-item-action active">
                                             <div class="notification-info">
                                                 <div class="notification-list-user-img"><img
+<<<<<<< HEAD
                                                         src="{{ asset('back_end/assets/images/avatar-2.jpg') }}" alt=""
+=======
+                                                        src="assets/images/avatar-2.jpg" alt=""
+>>>>>>> 99e821481d7224ee815f1432b9990c2be1b7d866
                                                         class="user-avatar-md rounded-circle"></div>
                                                 <div class="notification-list-user-block"><span
                                                         class="notification-list-user-name">Jeremy Rakestraw</span>accepted
@@ -61,11 +92,18 @@
                                         <a href="#" class="list-group-item list-group-item-action">
                                             <div class="notification-info">
                                                 <div class="notification-list-user-img"><img
+<<<<<<< HEAD
                                                         src="{{ asset('back_end/assets/images/avatar-3.jpg') }}" alt=""
                                                         class="user-avatar-md rounded-circle"></div>
                                                 <div class="notification-list-user-block"><span
                                                         class="notification-list-user-name">John Abraham </span>is now
                                                     following you
+=======
+                                                        src="assets/images/avatar-3.jpg" alt=""
+                                                        class="user-avatar-md rounded-circle"></div>
+                                                <div class="notification-list-user-block"><span
+                                                        class="notification-list-user-name"></span>is now following you
+>>>>>>> 99e821481d7224ee815f1432b9990c2be1b7d866
                                                     <div class="notification-date">2 days ago</div>
                                                 </div>
                                             </div>
@@ -73,7 +111,11 @@
                                         <a href="#" class="list-group-item list-group-item-action">
                                             <div class="notification-info">
                                                 <div class="notification-list-user-img"><img
+<<<<<<< HEAD
                                                         src="{{ asset('back_end/assets/images/avatar-4.jpg') }}" alt=""
+=======
+                                                        src="assets/images/avatar-4.jpg" alt=""
+>>>>>>> 99e821481d7224ee815f1432b9990c2be1b7d866
                                                         class="user-avatar-md rounded-circle"></div>
                                                 <div class="notification-list-user-block"><span
                                                         class="notification-list-user-name">Monaan Pechi</span> is
@@ -85,7 +127,11 @@
                                         <a href="#" class="list-group-item list-group-item-action">
                                             <div class="notification-info">
                                                 <div class="notification-list-user-img"><img
+<<<<<<< HEAD
                                                         src="{{ asset('back_end/assets/images/avatar-5.jpg') }}" alt=""
+=======
+                                                        src="assets/images/avatar-5.jpg" alt=""
+>>>>>>> 99e821481d7224ee815f1432b9990c2be1b7d866
                                                         class="user-avatar-md rounded-circle"></div>
                                                 <div class="notification-list-user-block"><span
                                                         class="notification-list-user-name">Jessica Caruso</span>accepted
@@ -109,6 +155,7 @@
                             <li class="connection-list">
                                 <div class="row">
                                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
+<<<<<<< HEAD
                                         <a href="#" class="connection-item"><img src="{{ asset('back_end/assets/images/github.png') }}" alt="">
                                             <span>Github</span></a>
                                     </div>
@@ -118,11 +165,23 @@
                                     </div>
                                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
                                         <a href="#" class="connection-item"><img src="{{ asset('back_end/assets/images/dropbox.png') }}" alt="">
+=======
+                                        <a href="#" class="connection-item"><img src="assets/images/github.png" alt="">
+                                            <span>Github</span></a>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
+                                        <a href="#" class="connection-item"><img src="assets/images/dribbble.png"
+                                                                                 alt=""> <span>Dribbble</span></a>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
+                                        <a href="#" class="connection-item"><img src="assets/images/dropbox.png" alt="">
+>>>>>>> 99e821481d7224ee815f1432b9990c2be1b7d866
                                             <span>Dropbox</span></a>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
+<<<<<<< HEAD
                                         <a href="#" class="connection-item"><img src="{{ asset('back_end/assets/images/bitbucket.png') }}"
                                                                                  alt=""> <span>Bitbucket</span></a>
                                     </div>
@@ -132,6 +191,17 @@
                                     </div>
                                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
                                         <a href="#" class="connection-item"><img src="{{ asset('back_end/assets/images/slack.png') }}" alt="">
+=======
+                                        <a href="#" class="connection-item"><img src="assets/images/bitbucket.png"
+                                                                                 alt=""> <span>Bitbucket</span></a>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
+                                        <a href="#" class="connection-item"><img src="assets/images/mail_chimp.png"
+                                                                                 alt=""><span>Mail chimp</span></a>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
+                                        <a href="#" class="connection-item"><img src="assets/images/slack.png" alt="">
+>>>>>>> 99e821481d7224ee815f1432b9990c2be1b7d866
                                             <span>Slack</span></a>
                                     </div>
                                 </div>
@@ -143,17 +213,29 @@
                     </li>
                     <li class="nav-item dropdown nav-user">
                         <a class="nav-link nav-user-img" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown"
+<<<<<<< HEAD
                            aria-haspopup="true" aria-expanded="false"><img src="{{ asset('back_end/assets/images/avatar-1.jpg') }}" alt=""
+=======
+                           aria-haspopup="true" aria-expanded="false"><img src="assets/images/avatar-1.jpg" alt=""
+>>>>>>> 99e821481d7224ee815f1432b9990c2be1b7d866
                                                                            class="user-avatar-md rounded-circle"></a>
                         <div class="dropdown-menu dropdown-menu-right nav-user-dropdown"
                              aria-labelledby="navbarDropdownMenuLink2">
                             <div class="nav-user-info">
+<<<<<<< HEAD
                                 <h5 class="mb-0 text-white nav-user-name">John Abraham </h5>
+=======
+                                <h5 class="mb-0 text-white nav-user-name">{{ auth()->user()->username }}</h5>
+>>>>>>> 99e821481d7224ee815f1432b9990c2be1b7d866
                                 <span class="status"></span><span class="ml-2">Available</span>
                             </div>
                             <a class="dropdown-item" href="#"><i class="fas fa-user mr-2"></i>Account</a>
                             <a class="dropdown-item" href="#"><i class="fas fa-cog mr-2"></i>Setting</a>
+<<<<<<< HEAD
                             <a class="dropdown-item" href="#"><i class="fas fa-power-off mr-2"></i>Logout</a>
+=======
+                            <a class="dropdown-item" href="{{ route('logout') }}"><i class="fas fa-power-off mr-2"></i>Logout</a>
+>>>>>>> 99e821481d7224ee815f1432b9990c2be1b7d866
                         </div>
                     </li>
                 </ul>
@@ -161,8 +243,14 @@
         </nav>
     </div>
     <!-- end navbar -->
+<<<<<<< HEAD
     <!-- left sidebar -->
 
+=======
+    <!-- -----------------------------------------------------------------
+    -                       Left Side Navigation Menu                    -
+    ---------------------------------------------------------------------- -->
+>>>>>>> 99e821481d7224ee815f1432b9990c2be1b7d866
     <div class="nav-left-sidebar sidebar-dark">
         <div class="menu-list">
             <nav class="navbar navbar-expand-lg navbar-light">
@@ -176,6 +264,7 @@
                         <li class="nav-divider">
                             Menu
                         </li>
+<<<<<<< HEAD
                         <li class="nav-item ">
                             <a class="nav-link active" href="#" data-toggle="collapse" aria-expanded="false"
                                data-target="#submenu-1" aria-controls="submenu-1"><i
@@ -260,10 +349,45 @@
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="pages/tabs.html">Tabs</a>
+=======
+
+                        {{-- Dashboard Treee --}}
+                        <li class="nav-item ">
+                            <a class="nav-link {{(request()->is('dashboard'))? 'active' : ''}}"
+                               href="{{ route('admin.dashboard') }}" aria-expanded="false"
+                            ><i class="fa fa-fw fa-user-circle"></i>Dashboard </a>
+                        </li>
+
+                        {{-- Projects Tree --}}
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false"
+                               data-target="#submenu-2" aria-controls="submenu-2"><i class="fa fa-fw fa-rocket"></i>Projects</a>
+                            <div id="submenu-2" class="collapse submenu" style="">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link {{ (request()->is('project/add'))? 'active' : '' }}" href="{{ route('project.add') }}">Add Project<span
+                                                class="badge badge-secondary">New</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="">Active Projects</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="">Hold Projects</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="">Completed Projects</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="">Canceled Projects</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="">All Projects</a>
+>>>>>>> 99e821481d7224ee815f1432b9990c2be1b7d866
                                     </li>
                                 </ul>
                             </div>
                         </li>
+<<<<<<< HEAD
                         <li class="nav-item">
                             <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false"
                                data-target="#submenu-3" aria-controls="submenu-3"><i class="fas fa-fw fa-chart-pie"></i>Chart</a>
@@ -286,10 +410,25 @@
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="pages/chart-gauge.html">Guage</a>
+=======
+
+                        {{-- Vendors Tree --}}
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false"
+                               data-target="#submenu-3" aria-controls="submenu-3"><i class="fas fa-fw fa-chart-pie"></i>Vendors</a>
+                            <div id="submenu-3" class="collapse submenu" style="">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="">Add Vendor</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="">All Vendors</a>
+>>>>>>> 99e821481d7224ee815f1432b9990c2be1b7d866
                                     </li>
                                 </ul>
                             </div>
                         </li>
+<<<<<<< HEAD
                         <li class="nav-item ">
                             <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false"
                                data-target="#submenu-4" aria-controls="submenu-4"><i class="fab fa-fw fa-wpforms"></i>Forms</a>
@@ -309,10 +448,26 @@
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="pages/bootstrap-select.html">Bootstrap Select</a>
+=======
+
+                        {{-- Administrator Tree --}}
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false"
+                               data-target="#submenu-4" aria-controls="submenu-4"><i class="fab fa-fw fa-wpforms"></i>Administrator
+                                Area</a>
+                            <div id="submenu-4" class="collapse submenu" style="">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="">Add New Administrator</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="">All Administrators</a>
+>>>>>>> 99e821481d7224ee815f1432b9990c2be1b7d866
                                     </li>
                                 </ul>
                             </div>
                         </li>
+<<<<<<< HEAD
                         <li class="nav-item">
                             <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false"
                                data-target="#submenu-5" aria-controls="submenu-5"><i class="fas fa-fw fa-table"></i>Tables</a>
@@ -323,10 +478,29 @@
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="pages/data-tables.html">Data Tables</a>
+=======
+
+                        {{-- Inventory Tree --}}
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false"
+                               data-target="#submenu-5" aria-controls="submenu-5"><i class="fas fa-fw fa-table"></i>Inventory
+                                Area</a>
+                            <div id="submenu-5" class="collapse submenu" style="">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="">Add New Item</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="">Item List</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="">Item List</a>
+>>>>>>> 99e821481d7224ee815f1432b9990c2be1b7d866
                                     </li>
                                 </ul>
                             </div>
                         </li>
+<<<<<<< HEAD
                         <li class="nav-divider">
                             Features
                         </li>
@@ -378,17 +552,45 @@
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="pages/color-picker.html">Color Picker</a>
+=======
+
+                        {{-- Man Power Tree--}}
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false"
+                               data-target="#submenu-6" aria-controls="submenu-6"><i class="fas fa-fw fa-file"></i>Man
+                                Power</a>
+                            <div id="submenu-6" class="collapse submenu" style="">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="">Attendance / List</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="">Add New Staff</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="">See Report</a>
+>>>>>>> 99e821481d7224ee815f1432b9990c2be1b7d866
                                     </li>
                                 </ul>
                             </div>
                         </li>
+<<<<<<< HEAD
                         <li class="nav-item">
                             <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false"
                                data-target="#submenu-7" aria-controls="submenu-7"><i class="fas fa-fw fa-inbox"></i>Apps
+=======
+
+                        {{-- Accounting Tree--}}
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false"
+                               data-target="#submenu-7" aria-controls="submenu-7"><i class="fas fa-fw fa-inbox"></i>Accounting
+                                Area
+>>>>>>> 99e821481d7224ee815f1432b9990c2be1b7d866
                                 <span class="badge badge-secondary">New</span></a>
                             <div id="submenu-7" class="collapse submenu" style="">
                                 <ul class="nav flex-column">
                                     <li class="nav-item">
+<<<<<<< HEAD
                                         <a class="nav-link" href="pages/inbox.html">Inbox</a>
                                     </li>
                                     <li class="nav-item">
@@ -399,10 +601,23 @@
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="pages/message-chat.html">Message Chat</a>
+=======
+                                        <a class="nav-link" href="">Banks</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="">Loans</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="">Income</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="">Expense</a>
+>>>>>>> 99e821481d7224ee815f1432b9990c2be1b7d866
                                     </li>
                                 </ul>
                             </div>
                         </li>
+<<<<<<< HEAD
                         <li class="nav-item">
                             <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false"
                                data-target="#submenu-8" aria-controls="submenu-8"><i class="fas fa-fw fa-columns"></i>Icons</a>
@@ -425,10 +640,26 @@
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="pages/icon-weather.html">Weather Icon</a>
+=======
+
+                        {{-- Clients Tree--}}
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false"
+                               data-target="#submenu-8" aria-controls="submenu-8"><i class="fas fa-fw fa-columns"></i>Clients
+                                Area</a>
+                            <div id="submenu-8" class="collapse submenu" style="">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="">Add New Client</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="">Client History</a>
+>>>>>>> 99e821481d7224ee815f1432b9990c2be1b7d866
                                     </li>
                                 </ul>
                             </div>
                         </li>
+<<<<<<< HEAD
                         <li class="nav-item">
                             <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false"
                                data-target="#submenu-9" aria-controls="submenu-9"><i
@@ -469,15 +700,32 @@
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="#">Level 3</a>
+=======
+
+                        {{-- Preferences Tree--}}
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false"
+                               data-target="#submenu-9" aria-controls="submenu-9"><i
+                                    class="fas fa-fw fa-map-marker-alt"></i>Preferences</a>
+                            <div id="submenu-9" class="collapse submenu" style="">
+                                <ul class="nav flex-column">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="">Revert Preferences</a>
+>>>>>>> 99e821481d7224ee815f1432b9990c2be1b7d866
                                     </li>
                                 </ul>
                             </div>
                         </li>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 99e821481d7224ee815f1432b9990c2be1b7d866
                     </ul>
                 </div>
             </nav>
         </div>
     </div>
+<<<<<<< HEAD
 
     <!-- end left sidebar -->
 
@@ -510,6 +758,63 @@
 <script src="{{ asset('back_end/assets/vendor/charts/c3charts/d3-5.4.0.min.js') }}"></script>
 <script src="{{ asset('back_end/assets/vendor/charts/c3charts/C3chartjs.js') }}"></script>
 <script src="{{ asset('back_end/assets/libs/js/dashboard-ecommerce.js') }}"></script>
+=======
+    <!-- end left sidebar -->
+
+    <!-- -----------------------------------------------------------------
+    -                       Main Content Appeared Section                -
+    ---------------------------------------------------------------------- -->
+    <div class="dashboard-wrapper">
+        <div class="container-fluid dashboard-content">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                    <div class="page-header">
+                        <h2 class="pageheader-title">Howdy, {{ auth()->user()->getFullNameAttribute() }} </h2>
+                        <p class="pageheader-text">Nulla euismod urna eros, sit amet scelerisque torton lectus vel mauris facilisis faucibus at enim quis massa lobortis rutrum.</p>
+                        <div class="page-breadcrumb">
+                            <nav aria-label="breadcrumb">
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="#" class="breadcrumb-link">Dashboard</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">E-Commerce Dashboard Template</li>
+                                </ol>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                @yield('content')
+            </div>
+        </div>
+    </div>
+
+    <!-- End Content Appeared Section-->
+
+</div>
+<!-- end main wrapper  -->
+
+
+<!-- Optional JavaScript -->
+<!-- jquery 3.3.1 -->
+<script src="{{ asset('assets/vendor/jquery/jquery-3.3.1.min.js') }}"></script>
+<!-- bootstap bundle js -->
+<script src="{{ asset('assets/vendor/bootstrap/js/bootstrap.bundle.js') }}"></script>
+<!-- slimscroll js -->
+<script src="{{ asset('assets/vendor/slimscroll/jquery.slimscroll.js') }}"></script>
+<!-- main js -->
+<script src="{{ asset('assets/libs/js/main-js.js') }}"></script>
+<!-- chart chartist js -->
+<script src="{{ asset('assets/vendor/charts/chartist-bundle/chartist.min.js') }}"></script>
+<!-- sparkline js -->
+<script src="{{ asset('assets/vendor/charts/sparkline/jquery.sparkline.js') }}"></script>
+<!-- morris js -->
+<script src="{{ asset('assets/vendor/charts/morris-bundle/raphael.min.js') }}"></script>
+<script src="{{ asset('assets/vendor/charts/morris-bundle/morris.js') }}"></script>
+<!-- chart c3 js -->
+<script src="{{ asset('assets/vendor/charts/c3charts/c3.min.js') }}"></script>
+<script src="{{ asset('assets/vendor/charts/c3charts/d3-5.4.0.min.js') }}"></script>
+<script src="{{ asset('assets/vendor/charts/c3charts/C3chartjs.js') }}"></script>
+<script src="{{ asset('assets/libs/js/dashboard-ecommerce.js') }}"></script>
+@yield('script')
+>>>>>>> 99e821481d7224ee815f1432b9990c2be1b7d866
 </body>
 
 </html>
