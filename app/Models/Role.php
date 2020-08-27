@@ -22,7 +22,7 @@ class Role extends Model
     public function sluggable()
     {
         return [
-            'slug' => [
+            'role_slug' => [
                 'source' => 'role_name'
             ]
         ];

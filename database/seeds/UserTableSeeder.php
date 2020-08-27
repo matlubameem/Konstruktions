@@ -58,5 +58,28 @@ class UserTableSeeder extends Seeder
             'created_at' => Carbon::now('Asia/Dhaka'),
             'updated_at' => Carbon::now('Asia/Dhaka')
         ]);
+
+        DB::table('users')->insert([
+            'role_id' => 6,
+            'first_name' => 'Mr.',
+            'last_name' => 'Spy',
+            'father_name' => 'Spy',
+            'mother_name' => 'spy',
+            'username' => 'Spy',
+            'email' => 'spy@knostruktion.com',
+            'password' => Hash::make('123456789'),
+            'mobile' => 1726447777,
+            'address' => '320/1, Dr. x Street, Alpha-1200',
+            'section' => 'Client',
+            'salary' => 10000.00,
+            'bio' => 'This world is under the rule of Dr.x',
+            'ip_address' => '192.168.20.15',
+            'last_login' => Carbon::now('Asia/Dhaka'),
+            'nid' => 19952632021118815,
+            'image' => null,
+            'email_verified_at' => Carbon::now('Asia/Dhaka'),
+            'created_at' => Carbon::now('Asia/Dhaka'),
+            'updated_at' => Carbon::now('Asia/Dhaka')
+        ]);
     }
 }

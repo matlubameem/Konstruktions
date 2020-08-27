@@ -21,7 +21,7 @@ class RoleTableSeeder extends Seeder
             DB::table('roles')->insert([
                 'role_name' => $name,
                 'ability'=> $ability[$index],
-                'slug' => $slugs[$index]
+                'role_slug' => $slugs[$index]
             ]);
         }
     }

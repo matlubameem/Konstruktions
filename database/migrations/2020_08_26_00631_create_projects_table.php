@@ -16,12 +16,12 @@ class CreateProjectsTable extends Migration
         Schema::create('projects', function (Blueprint $table) {
             $table->id();
             $table->foreignId('project_client_id')->constrained('users')->onDelete('cascade');
-            $table->string('project_id',60)->unique();
-            $table->string('project_name',89);
-            $table->string('project_location',200);
-            $table->float('project_budget',20,2);
-            $table->string('project_status',30);
-            $table->longText('project_des');
+            $table->string('project_id',60)->unique()->nullable();
+            $table->string('project_name',89)->nullable();
+            $table->string('project_location',200)->nullable();
+            $table->float('project_budget',20,2)->nullable();
+            $table->string('project_status',30)->nullable();
+            $table->longText('project_des')->nullable();
             $table->timestamps();
         });
     }

@@ -11,8 +11,27 @@
                     <div class="card-body">
                         <form action="" class="needs-validation" novalidate method="POST" enctype="multipart/form-data">
                             @csrf
+                            @if($errors->any())
+                                <div class="alert alert-danger">
+                                    @if($errors->count() == 1)
+                                        {{ $errors->first() }}
+                                    @else
+                                    <ul>
+                                        @foreach($errors->all() as $error)
+                                            <li>{{ $error }}</li>
+                                        @endforeach
+                                    </ul>
+                                    @endif
+                                </div>
+                            @endif
+
+                            @if(session()->has('message'))
+                                <div class="alert alert-{{ session('type') }}">
+                                    {{ session('message') }}
+                                </div>
+                            @endif
                             <div class="form-row mb-2">
-                                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 ">
+                                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
                                     <label for="validationCustom0001">Project name <span
                                             class="text-danger">*</span></label>
                                     <input type="text" name="project_name" class="form-control" id="validationCustom0001"
@@ -21,11 +40,11 @@
                                         Please choose a status.
                                     </div>
                                 </div>
-                                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 ">
-                                    <label for="validationCustom001">Project ID</label>
-                                    <input type="text" name="project_id" class="form-control" id="validationCustom001"
-                                           placeholder="D15ZA7-CC412HK-GHY55R" value="" required readonly>
-                                </div>
+{{--                                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 ">--}}
+{{--                                    <label for="validationCustom001">Project ID</label>--}}
+{{--                                    <input type="text" name="project_id" class="form-control" id="validationCustom001"--}}
+{{--                                           placeholder="D15ZA7-CC412HK-GHY55R" value="gfddfgdfg457764" required readonly>--}}
+{{--                                </div>--}}
                             </div>
                             <div class="form-row">
                                 {{-- Project Name & ID Section --}}
@@ -107,7 +126,9 @@
                                                 <select name="client_id" id="clientId" class="form-control"
                                                         aria-describedby="clientHelp">
                                                     <option selected>----- Select Client -----</option>
-
+                                                    @foreach($clients as $index=> $client)
+                                                        <option value="{{ $client->id }}">{{ $client->first_name }}</option>
+                                                    @endforeach
                                                 </select>
                                             </div>
                                         </div>
@@ -181,7 +202,8 @@
                                     <label for="validationCustom03">Project Description <span
                                             class="text-muted">(Optional)</span></label>
                                     <textarea class="form-control" id="validationCustom03"
-                                              placeholder="Write a description about your project" required></textarea>
+                                              placeholder="Write a description about your project"
+                                              name="project_des" required></textarea>
                                     <div class="invalid-feedback">
                                         Give some hint about your project.
                                     </div>
