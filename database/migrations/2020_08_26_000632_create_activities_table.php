@@ -15,7 +15,10 @@ class CreateActivitiesTable extends Migration
     {
         Schema::create('activities', function (Blueprint $table) {
             $table->id();
-            $table->foreignId('activity_of_user_id')->constrained('activities')->onDelete('cascade');
+            $table->longText('activity_note')->nullable();
+            $table->foreignId('activity_of_user_id')->constrained('users')->onDelete('cascade')->nullable();
+            $table->foreignId('activity_for_user_id')->nullable();
+            $table->foreignId('activity_project_id')->nullable();
             $table->timestamps();
         });
     }

@@ -9,20 +9,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0046a980-16df-4dc4-b925-79dae0359765" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Models/Activity.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_08_26_000632_create_activities_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Helpers/Helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Helpers/Helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProjectController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProjectController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Project.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Project.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Role.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Role.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_08_18_165800_create_projects_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_08_26_00631_create_projects_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_08_22_154834_create_roles_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_08_22_154834_create_roles_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_08_22_154835_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_08_22_154835_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/RoleTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/RoleTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_08_26_000632_create_activities_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_08_26_000632_create_activities_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_08_26_00631_create_projects_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_08_26_000631_create_projects_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/seeds/UserTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/UserTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/back_end/project/add.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/back_end/project/add.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/back_end/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/back_end/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,7 +217,13 @@
       <workItem from="1598371490571" duration="1733000" />
       <workItem from="1598376997319" duration="6301000" />
       <workItem from="1598470550500" duration="2492000" />
-      <workItem from="1598501454579" duration="11175000" />
+      <workItem from="1598501454579" duration="11961000" />
+      <workItem from="1598554423787" duration="2840000" />
+      <workItem from="1598630916799" duration="9558000" />
+      <workItem from="1598673967208" duration="4700000" />
+      <workItem from="1598686728321" duration="6338000" />
+      <workItem from="1598710255313" duration="1028000" />
+      <workItem from="1598711625087" duration="5573000" />
     </task>
     <servers />
   </component>
@@ -261,14 +264,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="46" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1598039327842" />
-    <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1598111368351">
+    <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1598633431861">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1598111368351" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1598501562217">
+    <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1598633431861" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1598712589115">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1598501562217" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1598712589115" />
     <state x="517" y="287" key="NewPhpFileDialog" timestamp="1598125133269">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -281,9 +284,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1597244799882" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1598381078302">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1598556386975">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1598381078302" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1598556386975" />
   </component>
 </project>

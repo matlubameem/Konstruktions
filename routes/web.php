@@ -1,5 +1,6 @@
 <?php
 
+use Carbon\Carbon;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -34,4 +35,13 @@ Route::middleware('auth')->group(function () {
     });
 });
 
+
+
+
+// This Route for testing components
+Route::get('/test',function()
+{
+    //
+}
+);
 

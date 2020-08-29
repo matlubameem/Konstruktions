@@ -5,11 +5,10 @@ namespace App\Http\Controllers;
 use App\Models\Project;
 use App\Models\Role;
 use App\Models\User;
-use http\Exception;
+use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Str;
-use function GuzzleHttp\Psr7\str;
 
 class ProjectController extends Controller
 {
@@ -33,7 +32,7 @@ class ProjectController extends Controller
                 ->find($request->post('client_id'));
         }
         if ($request->post('client_type') == 'new') {
-            $new_client = $this->createNewClient($request->all());
+            $client = $this->createNewClient($request->all());
         }
 
         $validator = Validator::make($request->all(), [
@@ -47,30 +46,35 @@ class ProjectController extends Controller
         if ($validator->fails()) {
             return redirectBackWithValidationError($validator);
         }
-        try {
+//        try {
             $project = new Project();
 
-            $project->project_client_id = $new_client->id;
+            $project->project_client_id = $client->id;
             $project->project_name = $request->input('project_name');
-            $project->project_id = strtoupper(base_convert(sha1(uniqid('PROJ-', true)), 16, 36));
+            $project->project_id = getUniqueCode('project');
             $project->project_location = $request->input('project_location');
             $project->project_status = $request->input('project_status');
             $project->project_des = $request->input('project_des');
             $project->project_budget = $request->input('project_budget');
             $project->save();
 
-//            addActivity('Project', $project->id, 'Project Updated Successfully');
+            addActivity('project', $project->id, 'Project Updated Successfully');
 
             session()->flash('message', 'Project Created successfully!');
             session()->flash('type', 'success');
 
-            return redirect()->back();
-
-        } catch (Exception $exception) {
-        }
+//        } catch (Exception $exception) {
+//            session()->flash('message', 'May be you made some mistake on project part'.' <==> ' . $exception->getMessage());
+//            session()->flash('type', 'danger');
+//        }
+        return redirect()->back();
     }
 
 
+    /**
+     * @param array $data
+     * @return User|\Illuminate\Http\RedirectResponse
+     */
     protected function createNewClient(array $data)
     {
         $validator = Validator::make($data, [
@@ -86,7 +90,7 @@ class ProjectController extends Controller
         }
 
 
-        try {
+//        try {
             $client_role_id = Role::whereRoleSlug('client')->firstOrFail();
 
             $client = new User();
@@ -102,12 +106,14 @@ class ProjectController extends Controller
             session()->flash('message', 'Client Created successfully!');
             session()->flash('type', 'success');
 
+            addActivity('user',$client->id,'Client Created Successfully!');
+
             return $client;
 
-        } catch (Exception $exception) {
-            session()->flash('message', 'May be you made some mistake on client part' . $exception->getMessage());
-            session()->flash('type', 'danger');
-        }
+//        } catch (Exception $exception) {
+//            session()->flash('message', 'May be you made some mistake on client part'.'==>>' . $exception->getMessage());
+//            session()->flash('type', 'danger');
+//        }
     }
 
 }

@@ -14,19 +14,19 @@ class UserTableSeeder extends Seeder
     public function run()
     {
         DB::table('users')->insert([
-            'role_id' => 1,
+            'role_id' => 2,
             'first_name' => 'Mr.',
             'last_name' => 'Administrator',
             'father_name' => 'Administrator',
             'mother_name' => 'Administrator',
-            'username' => 'aministrator',
+            'username' => 'administrator',
             'email' => 'administrator@knostruktion.com',
             'password' => Hash::make('123456789'),
             'mobile' => 1726447799,
             'address' => '320/1, Dr. x Street, Alpha-1200',
             'section' => 'Administrator',
             'salary' => 10000.00,
-            'bio' => 'This world is under the rule of Dr.x',
+            'bio' => 'administrator',
             'ip_address' => '192.168.20.15',
             'last_login' => Carbon::now(),
             'nid' => 1995263202111115,
@@ -37,7 +37,7 @@ class UserTableSeeder extends Seeder
         ]);
 
         DB::table('users')->insert([
-            'role_id' => 2,
+            'role_id' => 1,
             'first_name' => 'Alpha',
             'last_name' => 'Dr.',
             'father_name' => 'Dr. Abdur Rouf',
@@ -49,7 +49,7 @@ class UserTableSeeder extends Seeder
             'address' => '320/1, Dr. x Street, Alpha-1200',
             'section' => 'Software Engineer',
             'salary' => 800000.00,
-            'bio' => 'This world is under the rule of Dr.x',
+            'bio' => 'Software Engineer',
             'ip_address' => '192.168.0.15',
             'last_login' => Carbon::now(),
             'nid' => 1995263202000005,
@@ -72,7 +72,7 @@ class UserTableSeeder extends Seeder
             'address' => '320/1, Dr. x Street, Alpha-1200',
             'section' => 'Client',
             'salary' => 10000.00,
-            'bio' => 'This world is under the rule of Dr.x',
+            'bio' => 'Client',
             'ip_address' => '192.168.20.15',
             'last_login' => Carbon::now('Asia/Dhaka'),
             'nid' => 19952632021118815,

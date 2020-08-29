@@ -44,8 +44,51 @@ class User extends Authenticatable
         return $this->first_name.' '.$this->last_name;
     }
 
+    /**
+     * Get the role that owns the user.
+     */
+    public function role()
+    {
+        return $this->belongsTo(Role::class,'role_id','id');
+    }
+
+    /**
+     * Get the activities for the user.
+     */
     public function activities()
     {
         return $this->hasMany(Activity::class,'activity_of_user_id','id');
+    }
+
+    /**
+     * @return bool
+     */
+    public function isDeveloper()
+    {
+        return $this->role->role_slug === 'developer';
+    }
+
+    /**
+     * @return bool
+     */
+    public function isAdmin()
+    {
+        return $this->role->role_slug === 'administrator';
+    }
+
+    /**
+     * @return bool
+     */
+    public function isManager()
+    {
+        return $this->role->role_slug === 'manager';
+    }
+
+    /**
+     * @return bool
+     */
+    public function isAccountant()
+    {
+        return $this->role->role_slug === 'accountant';
     }
 }
