@@ -41,7 +41,7 @@ Route::middleware('auth')->group(function () {
 // This Route for testing components
 Route::get('/test',function()
 {
-    //
+    return view('back_end.project.show');
 }
 );
 

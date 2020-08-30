@@ -2080,6 +2080,62 @@ Pageheader
     margin-bottom: 8px;
     color: #ffffff;
 }
+.des-container-item {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: #000;
+    display: block;
+}
+.left-card-reset {
+    min-height: 273px !important;
+}
+.card-reset {
+    margin-bottom: 15px !important;
+    color: #fff;
+}
+.reset-card-body {
+    padding: 6px 15px;
+    text-align: center;
+}
+.parent-cls {
+    display: block;
+}
+.parent-cls .child-cls {
+    font-size: 19px;
+}
+.fatIcon {
+    font-size: 25px;
+}
+.amount {
+    font-size: 20px;
+    font-weight: bold;
+}
+.project-actions {
+    padding-top: 1.25rem;
+}
+.project-actions > a {
+    padding: 6px 8px;
+    border-radius: 3px;
+}
+.project-actions > a >i {
+    font-size: 21px;
+    vertical-align: middle;
+    color: #000;
+}
+.img-container {
+    margin: 0px auto;
+    display: flex;
+    padding-bottom: 1.25rem;
+    overflow: hidden;
+}
+.project-avatar-md {
+    margin: 0px auto;
+    display: flex;
+    height: 80px;
+    width: auto;
+    object-fit: cover;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
 .reset-default-container{
     margin: 0 -15px;
 }
@@ -3371,9 +3427,11 @@ btn-link
 .card {
     margin-bottom: 30px;
     border: none;
-    -webkit-box-shadow: 0px 1px 2px 1px rgba(154, 154, 204, 0.22);
-    -moz-box-shadow: 0px 1px 2px 1px rgba(154, 154, 204, 0.22);
-    box-shadow: 0px 1px 2px 1px rgba(154, 154, 204, 0.22);
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+        transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    border-radius: 5px;
 }
 
 .card-header {
@@ -5503,6 +5561,7 @@ Vertical Timeline - by CodyHouse.co
 .user-avatar-md {
     height: 32px;
     width: 32px;
+    object-fit: cover;
 }
 
 .user-avatar-sm {
